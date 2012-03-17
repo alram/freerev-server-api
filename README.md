@@ -9,7 +9,7 @@ Still a lot of work to do, might break at some point.
 
 	git clone git://github.com/alram/freerev-server-api.git
 
-	cd freebox-revolution-server-api
+	cd freerev-server-api
 
 	npm install
 
@@ -30,7 +30,7 @@ Get Token
 
 Get Internet connection status
 
-	curl -s http://localhost:3000/internet/status -H 'x-api-token: c7178c' | json
+	curl -s http://localhost:3000/internet/status -H 'x-api-token: 994e1a' | json
 	{
 		"type": "rfc2684",
 		"rate_down": 14081,
