@@ -2,8 +2,9 @@ var restify = require('restify');
 var routes = require('./routes');
 
 var server = restify.createServer({
-	name: 'Freebox Revolution Server API'
+  name: 'Freebox Revolution Server API'
 });
+
 server.use(restify.bodyParser());
 server.listen(3000);
 
