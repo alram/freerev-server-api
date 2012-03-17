@@ -1,0 +1,9 @@
+- Implements
+	- Network Connection (done)
+	- Local network (Parental control, AirMedia, IPv6, Network Mode, Port rdr, DHCP Server, Switch, UPnP IGD)
+	- Wifi (State, Configuration, Personal Network, FreeWifi)
+	- NAS (Devices, FTP, Windows Share, Mac OS share, UPnP AV)
+	- Phone (State, Call logs)
+	- Misc (will not implement)
+	- SeedBox (list torrents, add torrent - magnet link, or link only, configure)
+	- File Explorer (will probably not implement)

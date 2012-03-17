@@ -1,0 +1,43 @@
+GET /token
+- Login to the freebox. Return a Token that should be specified for every request
+
+GET /internet/status
+- Get generic information about your connection
+
+GET /internet/remoteping
+- Get status of remote ping
+
+POST /internet/remoteping
+- Turn on/off remote ping, specify enable=true/false in body
+
+GET /internet/remoteaccess
+- Get status of remote access
+
+POST /internet/remoteaccess
+- Turn on/off remote access.
+Mandatory option:
+	- enabled: true/false
+	- http_port: number (if enabled=true; optional otherwise)
+
+GET /internet/wol
+- Get status of Wake on Lan
+
+POST /internet/wol
+- Turn on/off wake on lan, specify enable=true/false in body
+
+GET /internet/logs
+- Get freebox logs
+
+DELETE /internet/logs
+- Flush freebox logs
+
+GET /internet/ddns
+- Get ddns conf
+
+POST /internet/ddns/(dyndns|noip)
+Configure DDNS services
+- Turn on/off remote access.
+Mandatory for activation enabled=true: 
+	- user=xx
+	- password=yy
+	- hostname=zz
