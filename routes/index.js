@@ -27,7 +27,7 @@ exports.token = function (req, res) {
       res.send(error.header.httpCode, error.body);
     }
     else {
-      freerevSDK.generateToken(cookie, function (token) {
+      freerevSDK.generateToken(cookie, function (error, token) {
         res.send(200, { token: token });
       });
     }
@@ -96,7 +96,7 @@ exports.internetPostProxy = function (req, res) {
       });
     break;
 
-  }  
+  }
 };
 
 exports.ddnsPostProxy = function (req, res) {
