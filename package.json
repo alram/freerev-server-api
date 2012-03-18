@@ -2,7 +2,7 @@
   "author": "Alexandre Marangone <a.marangone@gmail.com>",
   "name": "freerev-server-api",
   "description": "Freebox Revolution Server HTTP REST API",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/alram/freerev-server-api.git"
