@@ -1,3 +1,6 @@
+#Discontinued
+I don't have Free anymore. Not sure this code will work.
+
 # Description
 
 This is an unofficial HTTP REST API for the Freebox Revolution (v6) Server.
